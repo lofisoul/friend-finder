@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Friend Finder</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="main container">
+    <h1>Survey Questions</h1>
+    <hr>
+    <h2>About You</h2>
+    <div class="form-group">
+      <label>Name (Required)</label>
+      <input type="text" id="name" class="form-control" required>
+    </div>
+<div class="form-group">
+  <label>Link To Photo Image (Required)</label>
+  <input type="text" id="photo" class="form-control" required>
+</div>
+<hr>
+<h2>Select a value from 1 (strongly disagree) to 5 (strongly agree)</h2>
+<div class="form-group">
+  <label>You enjoy live music.</label>
+  <select type="text" id="q1" class="form-control">
+    <option selected="selected" disabled="disabled">Select Option</option>
+    <option value="1">1 (Strongly Disagree)</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5 (Strongly Agree)</option>
+  </select>
+</div>
+<div class="form-group">
+  <label>You prefer visual learning to active learning.</label>
+  <select type="text" id="q2" class="form-control">
+    <option selected="selected" disabled="disabled">Select Option</option>
+    <option value="1">1 (Strongly Disagree)</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5 (Strongly Agree)</option>
+  </select>
+</div>
+<div class="form-group">
+  <label>Humor is a very important thing in life.</label>
+  <select type="text" id="q3" class="form-control">
+    <option selected="selected" disabled="disabled">Select Option</option>
+    <option value="1">1 (Strongly Disagree)</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5 (Strongly Agree)</option>
+  </select>
+</div>
+<div class="form-group">
+  <label>You enjoy listening to the radio.</label>
+  <select type="text" id="q4" class="form-control">
+    <option selected="selected" disabled="disabled">Select Option</option>
+    <option value="1">1 (Strongly Disagree)</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5 (Strongly Agree)</option>
+  </select>
+</div>
+<div class="form-group">
+  <label>You enjoy the company of animals as pets.</label>
+  <select type="text" id="q5" class="form-control">
+    <option selected="selected" disabled="disabled">Select Option</option>
+    <option value="1">1 (Strongly Disagree)</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5 (Strongly Agree)</option>
+  </select>
+</div>
+<div class="form-group">
+  <label>You tend to work out more than 4 days a week.</label>
+  <select type="text" id="q6" class="form-control">
+    <option selected="selected" disabled="disabled">Select Option</option>
+    <option value="1">1 (Strongly Disagree)</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5 (Strongly Agree)</option>
+  </select>
+</div>
+<div class="form-group">
+  <label>You cannot function without coffee.</label>
+  <select type="text" id="q7" class="form-control">
+    <option selected="selected" disabled="disabled">Select Option</option>
+    <option value="1">1 (Strongly Disagree)</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5 (Strongly Agree)</option>
+  </select>
+</div>
+<div class="form-group">
+  <label>You prefer spicy foods.</label>
+  <select type="text" id="q8" class="form-control">
+    <option selected="selected" disabled="disabled">Select Option</option>
+    <option value="1">1 (Strongly Disagree)</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5 (Strongly Agree)</option>
+  </select>
+</div>
+<div class="form-group">
+  <label>You enjoy travelling to exotic locales over staying in one spot.</label>
+  <select type="text" id="q9" class="form-control">
+    <option selected="selected" disabled="disabled">Select Option</option>
+    <option value="1">1 (Strongly Disagree)</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5 (Strongly Agree)</option>
+  </select>
+</div>
+<div class="form-group">
+  <label>You tend to daydream a lot.</label>
+  <select type="text" id="q10" class="form-control">
+    <option selected="selected" disabled="disabled">Select Option</option>
+    <option value="1">1 (Strongly Disagree)</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5 (Strongly Agree)</option>
+  </select>
+</div>
+<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+ Submit</button>
+ <hr>
+</div>
+<footer class="footer">
+	  <div class="container">
+		   <p><a href="/api/friends">API Friends List</a> | <a href="#">GitHub Repo</a></p>
+	  </div>
+</footer>
+<!-- Modal -->
+<div id="resultsModal" class="modal fade" role="dialog">
+	 <div class="modal-dialog">
+      <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h2 class="modal-title">Best Match</h2>
+	      </div>
+	      <div class="modal-body">
+	        <h2 class="match-header"></h2>
+	        <img id="match-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+          <p class="match-info"></p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+<script>
+var scores = [];
+var formSelects = $('select.form-control');
+var formInputs = $('input.form-control');
+var submit = $('#submit');
+
+function formValidate() {
+  var isValid = true;
+
+  $(formSelects).each(function(){
+    if($(this).val() === '') {
+      isValid = false;
+    }
+  });
+
+  $(formInputs).each(function(){
+    if($(this).val() === '') {
+      isValid = false;
+    }
+  });
+  return isValid;
+}
+
+function modalPop(title, header, info, image) {
+  $('.modal-title').text(title);
+  $('.modal-header').text(header);
+  $('.match-info').text(info);
+  $('.match-img').attr('src', image);
+  $('#resultsModal').modal('show');
+}
+
+$(submit).on('click',function(e) {
+  e.preventDefault();
+
+  // check if form valid
+  if (formValidate()) {
+    //generate scores array
+    $('select.form-control').each(function() {
+      scores.push($(this).val());
+      return scores;
+    });
+    var name = $('input#name').val();
+    var photo = $('input#photo').val();
+
+    //generate user
+    var user = {
+      name: name,
+      photo: photo,
+      score: scores
+    }
+
+    var currentURL = window.location.origin;
+
+    //get the location of the root page.
+     var currentURL = window.location.origin;
+     $.post(currentURL+"/api/friends", user, function(data){
+             console.log('data: ' + data);
+            var bestMatch = data.bestMatch;
+            console.log('best: ' + bestMatch);
+              modalPop('Best Match!', bestMatch.name, '', bestMatch.photo);
+     });
+    }
+
+  else {
+    modalPop("Whoops!", "You missed something", "Please answer all questions and check your inputs");
+    }
+  console.log(user);
+});
+
+
+</script>
+</body>
+</html>
